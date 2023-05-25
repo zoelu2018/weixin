@@ -1,0 +1,17 @@
+<!--pages/lists/list.wxml-->
+<text class='h1'>学习清单</text>
+<!-- 轮播图的结构 -->
+<swiper class="swiper-container" indicator-dots="white" indicator-active-color="gray" autoplay interval="2000" circular>
+<!-- 第一个轮播图 -->
+  <swiper-item>
+    <view class="item">轮播图</view>
+  </swiper-item>
+<!-- 第二个轮播图 -->
+  <swiper-item>
+    <view class="item">相关属性</view>
+  </swiper-item>
+<!-- 第三个轮播图 -->
+  <swiper-item>
+    <view class="item">是否衔接滑动</view>
+  </swiper-item>
+</swiper>

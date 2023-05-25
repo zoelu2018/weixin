@@ -1,0 +1,8 @@
+<!--pages/lists/list.wxml-->
+
+<view>
+<!-- 长按选中功能 -->
+长按复制
+  <text selectable>130387832982</text>
+</view>
+<rich-text nodes="<h1 style='color : red'>标题</h1>"/>

@@ -1,0 +1,64 @@
+/* pages/infos/infos.wxss */
+.h1{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(141, 186, 228);
+
+}
+.h2{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(185, 208, 221);
+  
+}
+/* pages/infos/infos.wxss */
+.h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(141, 186, 228);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+}
+.h2{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(185, 208, 221);
+  
+}
+.h1 view:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(141, 186, 228);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+  background-color: lavender;
+}
+.view:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(141, 186, 228);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+  background-color:lightblue;
+}.view:nth-child(3){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(141, 186, 228);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+  background-color:lightgoldenrodyellow
+}

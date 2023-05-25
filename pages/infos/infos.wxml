@@ -1,0 +1,9 @@
+<!--pages/infos/infos.wxml-->
+<text class="h1" bindtap="clickme">我的人生记录</text>  
+<view>
+<view class="h2"> 作者：土豆</view>
+<view class="h2"> 开始日期：20230525</view>
+</view>
+<image src="/image/test.jpg" style="width:300px; height:200px;"></image>
+<navigator url='G:\WEIXIN\miniprogram-1\pages\index\index.wxml'>跳转</navigator>
+<view bindtap="clickon">跳转2</view>

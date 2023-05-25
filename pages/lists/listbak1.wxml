@@ -1,0 +1,18 @@
+<!--pages/lists/list.wxml-->
+<text class='h1'>学习清单</text>
+<!-- <view class='container1'>
+  <view class="a">A</view>
+  <view class="b">B</view>
+  <view class="c">C</view>
+</view> -->
+<scroll-view class='container1' scroll-y>
+  <view class="a">
+    A
+  </view>
+  <view class="b">
+    B
+  </view>
+  <view class="c">
+    C
+  </view>
+</scroll-view>
