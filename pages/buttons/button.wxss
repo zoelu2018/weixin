@@ -1,0 +1,13 @@
+/* pages/buttons/button.wxss */
+.h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(141, 186, 228);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+}
+image{
+  border: red 1px solid;
+}

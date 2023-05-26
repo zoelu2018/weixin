@@ -7,10 +7,35 @@ Page({
     motto: 'Hello little girl',
     userInfo: {},
     hasUserInfo: false,
+    msg:"你好",
+    count:0,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     canIUseGetUserProfile: false,
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
   },
+  //定义按钮的事件处理函数
+  btnTapHander(e){
+     console.log(e)
+  },  
+  CountChange(e){
+    this.setData({
+      count: this.data.count +1
+    })
+    console.log(this.data.count)
+ },  
+ btnTap2(e){
+   
+  this.setData({
+    count: this.data.count +e.target.dataset.info
+  })
+  console.log(this.data.count)
+},  
+inputHandler(e){
+// console.log(e.detail.value)
+this.setData({
+  msg:e.detail.value
+})
+},
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({

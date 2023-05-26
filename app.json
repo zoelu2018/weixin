@@ -1,16 +1,21 @@
 {
   "pages":[
+    "pages/index/index",
+    "pages/buttons/button",
     "pages/lists/list",
     "pages/infos/infos",
-    "pages/index/index",
+
     "pages/logs/logs"
     
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#765",
+    "navigationBarTitleText": "亲爱的小家人们",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#EfEfEf",
+    "onReachBottomDistance": 50
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
